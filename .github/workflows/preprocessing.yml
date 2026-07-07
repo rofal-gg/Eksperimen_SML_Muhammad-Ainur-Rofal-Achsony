@@ -7,6 +7,9 @@ on:
       - 'preprocessing/automate_Muhammad-Ainur-Rofal-Achsony.py'
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   preprocessing:
     runs-on: ubuntu-latest
